@@ -66,5 +66,9 @@ public class SpringMVCUtil {
 	public static boolean isWeb() {
 		return RequestContextHolder.getRequestAttributes() != null;
 	}
+
+	public static int add(int a, int b) {
+		return a + b;
+	}
 	
 }
